@@ -1,0 +1,6 @@
+{
+    "version": "3.8",
+    "entry_point": "sample_tool\\main.pyz",
+    "tool_package": "ayx_plugins",
+    "tool_name": "sample_tool"
+}

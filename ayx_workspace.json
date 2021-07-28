@@ -1,0 +1,47 @@
+{
+    "name": "platform_sdk_sample",
+    "tool_category": "sample",
+    "package_icon_path": "configuration\\default_package_icon.png",
+    "author": "John Smith",
+    "company": "Classmethod, Inc.",
+    "copyright": "2021",
+    "description": "",
+    "ayx_cli_version": "1.0.0",
+    "backend_language": "python",
+    "backend_language_settings": {
+        "python_version": "3.8",
+        "requirements_local_path": "tool_backends\\requirements-local.txt",
+        "requirements_thirdparty_path": "tool_backends\\requirements-thirdparty.txt"
+    },
+    "tools": {
+        "sample_tool": {
+            "backend": {
+                "tool_module": "ayx_plugins",
+                "tool_class_name": "sample_tool"
+            },
+            "ui": {},
+            "configuration": {
+                "long_name": "sample_tool",
+                "description": "",
+                "version": "10.1",
+                "search_tags": [],
+                "icon_path": "configuration\\sample_tool\\icon.png",
+                "input_anchors": {
+                    "Input": {
+                        "label": "",
+                        "allow_multiple": false,
+                        "optional": false
+                    }
+                },
+                "output_anchors": {
+                    "Output": {
+                        "label": "",
+                        "allow_multiple": false,
+                        "optional": false
+                    }
+                }
+            }
+        }
+    },
+    "tool_version": "1.0"
+}
